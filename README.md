@@ -30,26 +30,39 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+Short for Document Object Model - which is an interface. Converts the HTML into an object-based representation.
+
 2. What is an event?
+
+An event is a click, mouseover, scroll , or anything that the user does on the webpage - we can use
+these events to make the webpage more responsive to the user.
 
 3. What is an event listener?
 
+An event listener looks for event's to happen - once it hears an event it "fires" a function
+
 4. Why would we convert a NodeList into an Array?
+
+A NodeList cannot preform all the methods that an Array can preform.
 
 5. What is a component?
 
+
+Reusable set of logic in JavaScript that we can use to automatically style, display an element. Prevents developer from repeating code. 
+
+
 ### Git Set up
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
-* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-* [ ] You are now ready to build this project with your preferred IDE
+* [-] Fork the project into your GitHub user account
+* [-] Clone the forked project into a directory on your machine
+* [-] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+* [-] You are now ready to build this project with your preferred IDE
 
 ## Minimum Viable Product
 
 Your finished project must include all of the following requirements:
 
-* [ ] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled it. DO NOT add any code to the HTML file itself.
+* [-] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled it. DO NOT add any code to the HTML file itself.
 
 * [ ] Following the instructions in the `Header/index.js` file, create the Header component. 
 
