@@ -25,6 +25,21 @@ function Header() {
     headerWrap.appendChild(dateSpan);
     headerWrap.appendChild(h1Text);
     headerWrap.appendChild(tempSpan);
+
+    
+
+    //Assings classes to elements
+    headerWrap.classList.add('header');
+    dateSpan.classList.add('date');
+    tempSpan.classList.add('temp');
+
+    //Assigns data to elements
+    dateSpan.textContent= "SMARCH 28, 2019";
+    h1Text.textContent = "Lambda Times";
+    tempSpan.textContent = "98°";
+
+    headContainer.appendChild(headerWrap);
 }
 
-headContainer.appendChild(Header());
+Header();
+
