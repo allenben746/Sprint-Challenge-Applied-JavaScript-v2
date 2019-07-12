@@ -10,7 +10,7 @@
 
 axios.get('https://lambda-times-backend.herokuapp.com/topics')
     .then(data => {
-        console.log('Server request successful.')
+        console.log('Server request to /topics successful.')
         console.log(data.data.topics);
 
         const tabContainer = document.querySelector('.tabs');
