@@ -47,7 +47,7 @@ axios.get(' https://lambda-times-backend.herokuapp.com/articles')
             cardContainer.appendChild(author);
             cardContainer.appendChild(authorCredit);
             author.appendChild(imgContainer);
-            author.appendChild(image);
+            imgContainer.appendChild(image);
     
             //Gives elements data from paramenter passed through
             headline.textContent = param.headline;

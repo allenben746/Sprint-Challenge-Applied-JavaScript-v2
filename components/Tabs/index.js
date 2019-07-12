@@ -25,9 +25,6 @@ axios.get('https://lambda-times-backend.herokuapp.com/topics')
 
                 //Gives the div element text
                 tab.textContent = param;
-                
-                
-                
             
                 topicContainer.appendChild(tab);
                 console.log(`${param} tab appeneded to parent.`)
